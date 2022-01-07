@@ -27,6 +27,7 @@
     "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "lint-staged": "^12.1.7",
     "next": "^12.0.7",
     "prettier": "2.5.1",
     "react": "^17.0.2",
@@ -35,5 +36,9 @@
   },
   "dependencies": {
     "@stitches/react": "^1.2.6"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown",
+    "*.{js,jsx,ts,tsx}": "next lint --fix --file"
   }
 }
