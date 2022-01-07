@@ -1,0 +1,29 @@
+{
+  "name": "template-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drianoaz/template-design-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drianoaz/template-design-system/issues"
+  },
+  "homepage": "https://github.com/drianoaz/template-design-system#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.4"
+  }
+}
