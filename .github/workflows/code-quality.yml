@@ -28,3 +28,6 @@ jobs:
 
       - name: Check lint
         run: yarn lint
+
+      - name: Try to build the design system
+        run: yarn ds:build
