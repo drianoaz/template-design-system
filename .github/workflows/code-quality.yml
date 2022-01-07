@@ -24,7 +24,7 @@ jobs:
         run: yarn --frozen-lockfile
 
       - name: Check prettier
-        run: npx prettier --check $(git diff --cached --name-only HEAD^)
+        run: npx prettier --check $(git diff --cached --name-only HEAD^) --ignore-unknown
 
       - name: Check lint
         run: yarn lint
