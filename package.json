@@ -52,9 +52,5 @@
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
-  },
-  "lint-staged": {
-    "*": "prettier --write --ignore-unknown",
-    "*.{js,jsx,ts,tsx}": "next lint --fix --file"
   }
 }
